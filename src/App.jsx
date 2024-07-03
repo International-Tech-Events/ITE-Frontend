@@ -14,13 +14,13 @@ function App() {
       element: <Landing />
     },
 
-    {
-      path: "/home",
-      element: <Home />
-    },
+    // {
+    //   path: "/home",
+    //   element: <Home />
+    // },
 
     {
-      path: "/about-us",
+      path: "/about",
       element: <About />
     },
 
@@ -29,15 +29,15 @@ function App() {
       element: <Speakers />
     },
 
-    {
-      path: "/events",
-      element: <Events />
-    },
+    // {
+    //   path: "/events",
+    //   element: <Events />
+    // },
 
-    {
-      path: "/contact-us",
-      element: <Contact />
-    }
+    // {
+    //   path: "/contact-us",
+    //   element: <Contact />
+    // }
 
   ])
 
