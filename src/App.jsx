@@ -6,6 +6,7 @@ import Landing from './pages/landing'
 import Speakers from './pages/speakers'
 import Events from './pages/events'
 import Contact from './pages/contact'
+import Home from './pages/home'
 
 function App() {
   const router = createBrowserRouter ([
@@ -14,10 +15,10 @@ function App() {
       element: <Landing />
     },
 
-    // {
-    //   path: "/home",
-    //   element: <Home />
-    // },
+    {
+      path: "/home",
+      element: <Home />
+    },
 
     {
       path: "/about",
@@ -34,10 +35,10 @@ function App() {
     //   element: <Events />
     // },
 
-    // {
-    //   path: "/contact-us",
-    //   element: <Contact />
-    // }
+    {
+      path: "/contact-us",
+      element: <Contact />
+    }
 
   ])
 

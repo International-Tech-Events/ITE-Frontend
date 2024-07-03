@@ -2,7 +2,7 @@ import TicketComponent from "../components/ticketComponent"
 
 const Landing = () => {
   return (
-    <div className="text-center drop-shadow-lg">
+    <div className="text-center ">
       <div className="mb-12">
         <h1 className="font-bold font-serif text-[24px] mb-2">TICKET PRICING</h1>
         <p className="font-serif text-gray-500">
@@ -11,7 +11,7 @@ const Landing = () => {
         </p>
       </div>
 
-      <div className="flex justify-center items-center text-justify gap-x-[1px]">
+      <div className="flex justify-center items-center text-justify gap-x-[1px] drop-shadow-lg">
         <TicketComponent
         title="BASIC"
         text1="Individuals/Freelancers"
