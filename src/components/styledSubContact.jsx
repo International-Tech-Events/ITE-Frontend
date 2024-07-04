@@ -1,4 +1,5 @@
-import SubContact from './SubContact';
+import SubContact from "./subContact";
+
 
 const StyledSubContact = ({ formImage, text7, text8 }) => {
   return (

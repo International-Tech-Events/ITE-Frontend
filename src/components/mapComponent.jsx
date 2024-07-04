@@ -8,7 +8,7 @@ const MapComponent = () => {
       {/* Static Map Image */}
       <div className="w-full lg:w-2/3 h-96 lg:h-auto relative">
         <img
-          src="../assets/images/map1.png" // Replace with the path to your map image
+          src={map} // Replace with the path to your map image
           alt="Map"
           className="w-full h-full object-cover"
         />
