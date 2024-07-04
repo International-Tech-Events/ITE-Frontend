@@ -1,5 +1,4 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Home from './pages/home';
 import CreateEvent from './pages/createEvent';
 import AdminLanding from './pages/adminLanding';
 import DetailedEventCard from './components/detailedEventCard';
@@ -7,7 +6,7 @@ import About from './pages/about'
 import Speakers from './pages/speakers'
 import Events from './pages/events'
 import Contact from './pages/contact'
-import Home from './pages/home'
+import Home from './pages/home';
 
 
 
@@ -21,7 +20,7 @@ export default function App() {
     { path: '/create-event', element: <CreateEvent /> },
     { path: '/detailed-event', element: <DetailedEventCard /> },
     {
-      path: "/about",
+      path: "/about-us",
       element: <About />
     },
 
