@@ -3,7 +3,6 @@ import Home from './pages/home';
 import CreateEvent from './pages/createEvent';
 import AdminLanding from './pages/adminLanding';
 import DetailedEventCard from './components/detailedEventCard';
-import './App.css'
 import About from './pages/about'
 import Speakers from './pages/speakers'
 import Events from './pages/events'
@@ -14,7 +13,7 @@ import Home from './pages/home'
 
 export default function App() {
 
-  const myRouter = createBrowserRouter([
+  const router = createBrowserRouter([
 
     { path: '/', element: <Home /> },
     { path: '/home', element: <Home /> },
@@ -44,9 +43,7 @@ export default function App() {
 
 
   return (
-    <>
-     
-    </>
+    <RouterProvider router={router} />
   )
 }
 
