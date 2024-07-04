@@ -1,6 +1,7 @@
 import ContactForm from "../components/contactForm"
 import Footer from "../components/footer"
 import HeroAll from "../components/heroAll"
+import MapComponent from "../components/mapComponent"
 
 const Contact = () => {
   return (
@@ -10,7 +11,13 @@ const Contact = () => {
       text10="CONTECT"
       text11="Contact Us"/>
 
-      <ContactForm />
+      <div className="mx-28 mt-20">
+        <MapComponent />
+      </div>
+      
+      {/* <div className="bg-[#F9F9FF]"> */}
+        <ContactForm />
+      {/* </div> */}
       
       <Footer />
     </div>

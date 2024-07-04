@@ -15,7 +15,7 @@ const AboutComponent = () => {
                 <p className="mb-7 text-[16px]">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
-                <button className="py-4 px-8 bg-blue-300 hover:bg-sky-700 hover:text-white rounded-[5px]">View More Details</button>
+                <button className="py-4 px-8 bg-gradient-to-r from-purple-500 to-blue-500 hover:text-white rounded-[5px]">View More Details</button>
             </div>
         </div>
     )

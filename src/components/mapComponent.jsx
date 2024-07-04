@@ -1,12 +1,13 @@
 import { EnvelopeIcon, HomeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import StyledSubContact from "./styledSubContact";
-import { map } from "../assets";
+// import { map } from "../assets";
+import map from "../assets/images/map1.png"
 
 const MapComponent = () => {
   return (
-    <div className="relative flex flex-col lg:flex-row min-h-screen">
+    <div className="relative flex flex-col lg:flex-row min-h-[80vh]">
       {/* Static Map Image */}
-      <div className="w-full lg:w-2/3 h-96 lg:h-auto relative">
+      <div className="w-screen h-[70vh] relative">
         <img
           src={map} // Replace with the path to your map image
           alt="Map"
@@ -15,7 +16,7 @@ const MapComponent = () => {
       </div>
 
       {/* Contact Information */}
-      <div className="absolute top-0 right-0 bg-white p-8 mt-8 mr-8 shadow-lg rounded-lg w-full lg:w-1/3">
+      <div className="absolute bg-white p-8 mt-8 mr-8 shadow-lg rounded-lg w-full lg:w-1/3 right-3">
         <div className="font-serif">
           <StyledSubContact
             formImage={<HomeIcon className="h-9 w-8 text-purple-500" />}
@@ -38,4 +39,4 @@ const MapComponent = () => {
   );
 };
 
-export default MapComponent;
+export default MapComponent; 

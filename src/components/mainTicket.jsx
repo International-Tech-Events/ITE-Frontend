@@ -1,8 +1,8 @@
-import TicketComponent from "../components/ticketComponent"
+import TicketComponent from "./ticketComponent"
 
-const Landing = () => {
+const MainTicket = () => {
   return (
-    <div className="text-center ">
+    <div className="text-center my-24">
       <div className="mb-12">
         <h1 className="font-bold font-serif text-[24px] mb-2">TICKET PRICING</h1>
         <p className="font-serif text-gray-500">
@@ -11,10 +11,10 @@ const Landing = () => {
         </p>
       </div>
 
-      <div className="flex justify-center items-center text-justify gap-x-[1px] drop-shadow-lg">
+      <div className="flex justify-center items-center text-justify gap-x-[3px] drop-shadow-lg">
         <TicketComponent
         title="BASIC"
-        text1="Individuals/Freelancers"
+        text1="Individuals"
         amount="£39"
         text2="RAM 1 GB"
         text3="Core CPU 1"
@@ -24,7 +24,7 @@ const Landing = () => {
 
         <TicketComponent
         title="STARTER"
-        text1="Small Companies"
+        text1="Group"
         amount="£59"
         text2="RAM 2 GB"
         text3="Core CPU 2"
@@ -34,7 +34,7 @@ const Landing = () => {
 
         <TicketComponent
         title="BUSINESS"
-        text1="Medium Companies"
+        text1="Individual"
         amount="£79"
         text2="RAM 4 GB"
         text3="Core CPU 4"
@@ -44,7 +44,7 @@ const Landing = () => {
 
       <TicketComponent
         title="ENTERPRISE"
-        text1="Large Companies"
+        text1="Group"
         amount="£99"
         text2="RAM 8 GB"
         text3="Core CPU 8"
@@ -57,4 +57,4 @@ const Landing = () => {
   )
 }
 
-export default Landing
+export default MainTicket;
