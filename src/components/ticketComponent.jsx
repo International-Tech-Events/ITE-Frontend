@@ -27,7 +27,7 @@ const TicketComponent = ({ title, text1, amount, text2, text3, text4, text5, tex
         <h3 className="font-bold text-[20px] mb-3">{title}</h3>
         <p className="text-gray-600 mb-3">{text1}</p>
         <p className="text-[28px] pb-[20px] font-bold text-blue-300">{amount}<span className="text-[14px] font-light">/mo</span></p>
-        <div className="text-[18px] text-gray-600 text-[13px]">
+        <div className="text-gray-600 text-[13px]">
           <p className="pb-[20px]">{text2}</p>
           <p className="pb-[20px]">{text3}</p>
           <p className="pb-[20px]">{text4}</p>

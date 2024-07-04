@@ -12,5 +12,11 @@ import grid3 from './images/grid3.jpg'
 import grid4 from './images/grid4.jpg'
 import grid5 from './images/grid5.jpg'
 import grid6 from './images/grid6.jpg'
+import heroBg from './images/heroBg1.jpg'
+import heroBg2 from './images/heroBg2.jpg'
+import map from './images/map1.png'
+import map2 from './images/map2.png'
 
-export {aboutImg, speaker1, speaker2, speaker3, speaker4, facebook, linkedin, twiter, grid1, grid2, grid3, grid4, grid5, grid6}
+export {aboutImg, speaker1, speaker2, speaker3, speaker4, facebook, linkedin, twiter, grid1, grid2, grid3, grid4, grid5, grid6,
+    heroBg, heroBg2, map, map2
+}

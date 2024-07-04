@@ -4,9 +4,9 @@ import SpeakerLinks from "./speakerLinks";
 
 const Footer = () => {
   return (
-    <div className="w-screen h-screen bg-[#04091E] font-serif pt-28">
+    <div className="w-screen h-4/5 bg-[#04091E] font-serif py-20">
 
-        <div className=" text-white flex place-content-evenly ">
+        <div className=" text-white flex place-content-evenly">
             <div>
                 <h3 className="font-bold text-[20px] mb-5">TOP PRODUCTS</h3>
                     <p className="mb-3 text-[14px]">Managed Website</p>
@@ -17,7 +17,7 @@ const Footer = () => {
 
             <div>
                 <h3 className="font-bold text-[20px] mb-5">NEWS LETTER</h3>
-                <p className="mb-3 text-[14px]">You can trust us. we only send promo offers, not a single spam.</p>
+                <p className="mb-4 text-[14px]">You can trust us. we only send promo offers, not a single spam.</p>
                 <div>
                     <span className="pl-2 py-3 pr-24 bg-white text-gray-400 text-[12px] rounded-3xl font-serif mr-4">Your email address</span>
                     <span><button className="pl-7 py-3 pr-7 bg-blue-400 text-white text-[12px] rounded-3xl font-serif">Subscribe</button></span>
