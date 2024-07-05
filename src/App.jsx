@@ -3,6 +3,7 @@ import Home from './pages/home';
 import CreateEvent from './pages/createEvent';
 import AdminLanding from './pages/adminLanding';
 import DetailedEventCard from './components/detailedEventCard';
+import Events from './pages/events';
 
 
 
@@ -11,6 +12,7 @@ export default function App() {
   const myRouter = createBrowserRouter([
 
     { path: '/', element: <Home /> },
+    // { path: '/events', element: <Events /> },
     { path: '/home', element: <Home /> },
     { path: '/admin', element: <AdminLanding /> },
     { path: '/create-event', element: <CreateEvent /> },

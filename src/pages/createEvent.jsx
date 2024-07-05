@@ -1,3 +1,4 @@
+import axios from "axios";
 import Navbar from "../components/navbar";
 
 const CreateEvent = () => {
@@ -5,6 +6,20 @@ const CreateEvent = () => {
     const d = new Date();
     const minDate = d.getUTCFullYear() + '-0' + (d.getUTCMonth() + 1) + '-0' + d.getUTCDate();
     // console.log(minDate);
+
+
+    //Post event to backend
+    const postEvent = async (event) => {
+        event.preventDefault();
+
+        //Collect all inputs
+        const formData = new FormData(event.target)
+
+        //Post data to backend
+        const response = await axios.post('https://ite-backend-1.onrender.com/events', formData);
+        console.log(response);
+    }
+
 
     return (
 
