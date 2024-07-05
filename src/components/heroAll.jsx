@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const HeroAll = ({ text9, text10, text11, arrowIcon }) => {
   return (
     // <div className="bg-[url(./assest/images/heroBg2.jpg)] h-screen">
@@ -16,6 +17,7 @@ const HeroAll = ({ text9, text10, text11, arrowIcon }) => {
                 <div className="flex flex-col items-center justify-center h-full text-white text-center">
                     <div className="text-[10px]">
                         <span className="pr-3">{text9} </span>
+                        
                         <span>{">"}</span>
                         <span className="pl-4">{text10}</span>
                     </div>

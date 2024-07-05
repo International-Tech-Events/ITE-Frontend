@@ -1,18 +1,14 @@
-import { EnvelopeIcon, HomeIcon, PhoneIcon } from "@heroicons/react/24/outline";
-import StyledSubContact from "./styledSubContact";
+import { EnvelopeIcon, HomeIcon, PhoneIcon } from '@heroicons/react/24/outline';
+import StyledSubContact from './styledSubContact';
 // import { map } from "../assets";
-import map from "../assets/images/map1.png"
+import map from '../assets/images/map2.jpg';
 
 const MapComponent = () => {
   return (
-    <div className="relative flex flex-col lg:flex-row min-h-[80vh]">
+    <div className="relative flex flex-col lg:flex-row min-h-[70vh] mx-16">
       {/* Static Map Image */}
-      <div className="w-screen h-[70vh] relative">
-        <img
-          src={map} // Replace with the path to your map image
-          alt="Map"
-          className="w-full h-full object-cover"
-        />
+      <div className="w-screen h-[60vh] relative">
+        <img src={map} alt="Map" className="w-full h-full object-cover" />
       </div>
 
       {/* Contact Information */}
@@ -39,4 +35,4 @@ const MapComponent = () => {
   );
 };
 
-export default MapComponent; 
+export default MapComponent;
