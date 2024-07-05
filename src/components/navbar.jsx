@@ -65,7 +65,7 @@ const Navbar = () => {
       {/* <Link to={'/home'} className={`${scrolled ? 'text-white' : 'text-purple-500'}`}>ITE</Link> */}
       <Link
         to={'/home'}
-        className={`${scrolled ? 'text-white' : 'text-purple-500'}`}
+        className={`${scrolled ? 'text-white' : 'text-white'}`}
       >
         <img src={logo} alt="" className="h-[40px] w-[60px]" />
       </Link>
@@ -73,38 +73,38 @@ const Navbar = () => {
       <div className="flex gap-8">
         <Link
           to={'/home'}
-          className={`${scrolled ? 'text-white' : 'text-purple-500'}`}
+          className={`${scrolled ? 'text-purple-500' : 'text-white'}`}
         >
           HOME
         </Link>
         <Link
           to={'/about-us'}
-          className={`${scrolled ? 'text-white' : 'text-purple-500'}`}
+          className={`${scrolled ? 'text-purple-500' : 'text-white'}`}
         >
           ABOUT
         </Link>
         <Link
           to={'/events'}
-          className={`${scrolled ? 'text-white' : 'text-purple-500'}`}
+          className={`${scrolled ? 'text-purple-500' : 'text-white'}`}
         >
           EVENTS
         </Link>
         <Link
           to={'/contact-us'}
-          className={`${scrolled ? 'text-white' : 'text-purple-500'}`}
+          className={`${scrolled ? 'text-purple-500' : 'text-white'}`}
         >
           CONTACT
         </Link>
         <Link
           to={'/admin'}
-          className={`${scrolled ? 'text-white' : 'text-purple-500'}`}
+          className={`${scrolled ? 'text-purple-500' : 'text-white'}`}
         >
           ADMIN
         </Link>
       </div>
 
       <div className="my-6 px-2 py-[3px] w-min flex items-center gap-[4pt] border-2 border-green-100 rounded-[7px]">
-        <button className={`${scrolled ? 'text-white' : 'text-purple-500'}`}>
+        <button className={`${scrolled ? 'text-white' : 'text-white'}`}>
           <MagnifyingGlassIcon />
         </button>
         <input

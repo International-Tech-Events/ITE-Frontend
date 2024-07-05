@@ -11,7 +11,7 @@ const Home = () => {
       <div className="h-screen bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('./assets/images/heroBg2.jpg')] bg-no-repeat bg-center bg-cover flex items-center justify-center">
         <div className="w-1/2 text-white text-center">
           <p className="font-serif text-[25pt]">
-            UPCOMING INTERNATIONAL CONFERENCES
+            TOP TECH CONFERENCES & EVENTS <br /> 2024
           </p>
 
           <p className="my-[2rem]">
